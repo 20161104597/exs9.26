@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C1BEF8E8215B232000C0464E /* exs9.26.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exs9.26.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BEF8E8215B232000C0464E /*  自制计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = " 自制计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BEF8EB215B232000C0464E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1BEF8ED215B232000C0464E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C1BEF8F0215B232000C0464E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1BEF8F2215B232100C0464E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1BEF8F5215B232100C0464E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1BEF8F7215B232100C0464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1BEF8FC215B232200C0464E /* exs9.26Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exs9.26Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BEF8FC215B232200C0464E /*  自制计算器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = " 自制计算器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BEF900215B232200C0464E /* exs9_26Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exs9_26Tests.swift; sourceTree = "<group>"; };
 		C1BEF902215B232200C0464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1BEF907215B232200C0464E /* exs9.26UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exs9.26UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1BEF907215B232200C0464E /*  自制计算器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = " 自制计算器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1BEF90B215B232200C0464E /* exs9_26UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exs9_26UITests.swift; sourceTree = "<group>"; };
 		C1BEF90D215B232200C0464E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		C1BEF8E9215B232000C0464E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1BEF8E8215B232000C0464E /* exs9.26.app */,
-				C1BEF8FC215B232200C0464E /* exs9.26Tests.xctest */,
-				C1BEF907215B232200C0464E /* exs9.26UITests.xctest */,
+				C1BEF8E8215B232000C0464E /*  自制计算器.app */,
+				C1BEF8FC215B232200C0464E /*  自制计算器Tests.xctest */,
+				C1BEF907215B232200C0464E /*  自制计算器UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C1BEF8E7215B232000C0464E /* exs9.26 */ = {
+		C1BEF8E7215B232000C0464E /*  自制计算器 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1BEF910215B232200C0464E /* Build configuration list for PBXNativeTarget "exs9.26" */;
+			buildConfigurationList = C1BEF910215B232200C0464E /* Build configuration list for PBXNativeTarget " 自制计算器" */;
 			buildPhases = (
 				C1BEF8E4215B232000C0464E /* Sources */,
 				C1BEF8E5215B232000C0464E /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = exs9.26;
+			name = " 自制计算器";
 			productName = exs9.26;
-			productReference = C1BEF8E8215B232000C0464E /* exs9.26.app */;
+			productReference = C1BEF8E8215B232000C0464E /*  自制计算器.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C1BEF8FB215B232200C0464E /* exs9.26Tests */ = {
+		C1BEF8FB215B232200C0464E /*  自制计算器Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1BEF913215B232200C0464E /* Build configuration list for PBXNativeTarget "exs9.26Tests" */;
+			buildConfigurationList = C1BEF913215B232200C0464E /* Build configuration list for PBXNativeTarget " 自制计算器Tests" */;
 			buildPhases = (
 				C1BEF8F8215B232200C0464E /* Sources */,
 				C1BEF8F9215B232200C0464E /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				C1BEF8FE215B232200C0464E /* PBXTargetDependency */,
 			);
-			name = exs9.26Tests;
+			name = " 自制计算器Tests";
 			productName = exs9.26Tests;
-			productReference = C1BEF8FC215B232200C0464E /* exs9.26Tests.xctest */;
+			productReference = C1BEF8FC215B232200C0464E /*  自制计算器Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C1BEF906215B232200C0464E /* exs9.26UITests */ = {
+		C1BEF906215B232200C0464E /*  自制计算器UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C1BEF916215B232200C0464E /* Build configuration list for PBXNativeTarget "exs9.26UITests" */;
+			buildConfigurationList = C1BEF916215B232200C0464E /* Build configuration list for PBXNativeTarget " 自制计算器UITests" */;
 			buildPhases = (
 				C1BEF903215B232200C0464E /* Sources */,
 				C1BEF904215B232200C0464E /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				C1BEF909215B232200C0464E /* PBXTargetDependency */,
 			);
-			name = exs9.26UITests;
+			name = " 自制计算器UITests";
 			productName = exs9.26UITests;
-			productReference = C1BEF907215B232200C0464E /* exs9.26UITests.xctest */;
+			productReference = C1BEF907215B232200C0464E /*  自制计算器UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C1BEF8E3215B232000C0464E /* Build configuration list for PBXProject "exs9.26" */;
+			buildConfigurationList = C1BEF8E3215B232000C0464E /* Build configuration list for PBXProject " 自制计算器" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C1BEF8E7215B232000C0464E /* exs9.26 */,
-				C1BEF8FB215B232200C0464E /* exs9.26Tests */,
-				C1BEF906215B232200C0464E /* exs9.26UITests */,
+				C1BEF8E7215B232000C0464E /*  自制计算器 */,
+				C1BEF8FB215B232200C0464E /*  自制计算器Tests */,
+				C1BEF906215B232200C0464E /*  自制计算器UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		C1BEF8FE215B232200C0464E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1BEF8E7215B232000C0464E /* exs9.26 */;
+			target = C1BEF8E7215B232000C0464E /*  自制计算器 */;
 			targetProxy = C1BEF8FD215B232200C0464E /* PBXContainerItemProxy */;
 		};
 		C1BEF909215B232200C0464E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C1BEF8E7215B232000C0464E /* exs9.26 */;
+			target = C1BEF8E7215B232000C0464E /*  自制计算器 */;
 			targetProxy = C1BEF908215B232200C0464E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -433,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X7Q372D6;
 				INFOPLIST_FILE = exs9.26/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59X7Q372D6;
 				INFOPLIST_FILE = exs9.26/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -478,7 +480,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exs9.26.app/exs9.26";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ 自制计算器.app/ 自制计算器";
 			};
 			name = Debug;
 		};
@@ -498,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/exs9.26.app/exs9.26";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ 自制计算器.app/ 自制计算器";
 			};
 			name = Release;
 		};
@@ -543,7 +545,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1BEF8E3215B232000C0464E /* Build configuration list for PBXProject "exs9.26" */ = {
+		C1BEF8E3215B232000C0464E /* Build configuration list for PBXProject " 自制计算器" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1BEF90E215B232200C0464E /* Debug */,
@@ -552,7 +554,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1BEF910215B232200C0464E /* Build configuration list for PBXNativeTarget "exs9.26" */ = {
+		C1BEF910215B232200C0464E /* Build configuration list for PBXNativeTarget " 自制计算器" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1BEF911215B232200C0464E /* Debug */,
@@ -561,7 +563,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1BEF913215B232200C0464E /* Build configuration list for PBXNativeTarget "exs9.26Tests" */ = {
+		C1BEF913215B232200C0464E /* Build configuration list for PBXNativeTarget " 自制计算器Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1BEF914215B232200C0464E /* Debug */,
@@ -570,7 +572,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C1BEF916215B232200C0464E /* Build configuration list for PBXNativeTarget "exs9.26UITests" */ = {
+		C1BEF916215B232200C0464E /* Build configuration list for PBXNativeTarget " 自制计算器UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1BEF917215B232200C0464E /* Debug */,
