@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
-    var show = ""             //  第一个数为a->show 第二个数b->result
+    var show = ""             //  第一个数为a->show
     var number = 0
     var re = 0
     var judge = 0
@@ -155,8 +155,16 @@ class ViewController: UIViewController {
     
     @IBAction func point(_ sender: Any) {
         if judge == 0{
-            result.text = result.text! + "."
-            judge = 1
+            if (result.text == "")
+            {
+                result.text = result.text! + "0."
+                judge = 1
+            }
+            else{
+                result.text = result.text! + "."
+                judge = 1
+            }
+            
         }
         else {
              result.text = result.text!
@@ -187,9 +195,8 @@ class ViewController: UIViewController {
             {
                 c = a / b
             }
-            
-            result.text = String(c)
-            
+    
+            result.text = String(format:"%.10f",c)
             while(result.text?.last=="0")
             {
                 result.text?.removeLast()
@@ -244,7 +251,7 @@ class ViewController: UIViewController {
                 c = a / b
             }
             
-            result.text = String(c)
+            result.text = String(format:"%.10f",c)
             while(result.text?.last=="0")
             {
                 result.text?.removeLast()
@@ -300,7 +307,7 @@ class ViewController: UIViewController {
                 c = a / b
             }
             
-            result.text = String(c)
+            result.text = String(format:"%.10f",c)
             while(result.text?.last=="0")
             {
                 result.text?.removeLast()
@@ -323,7 +330,7 @@ class ViewController: UIViewController {
             {
                 symbol = 1
                 show = result.text!
-                result.text = show
+               // result.text = show
                 number = 3
                 re = 1
             }
@@ -332,7 +339,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func divide(_ sender: Any) {
-        var b = 1
+    
         if symbol == 1
         {
             let a = Double(show)!
@@ -355,7 +362,7 @@ class ViewController: UIViewController {
                 c = a / b
             }
             
-            result.text = String(c)
+            result.text = String(format:"%.10f",c)
             while(result.text?.last=="0")
             {
                 result.text?.removeLast()
@@ -400,17 +407,18 @@ class ViewController: UIViewController {
             
             let a = Double(show)!
             let b = Double(result.text!)!
+            var c = 0.0
             if number == 1{
-                let c = a + b
-                result.text = String(c)
+                 c = a + b
+                //result.text = String(format:"%.10f",c)
             }
             if number == 2{
-                let  c = a - b
-                result.text = String(c)
+                  c = a - b
+                //result.text = String(format:"%.10f",c)
             }
             if number == 3{
-                let c = a * b
-                result.text = String(c)
+                 c = a * b
+                //result.text = String(format:"%.10f",c)
             }
             if number == 4{
                 if b == 0
@@ -418,11 +426,12 @@ class ViewController: UIViewController {
                         result.text = "Error"
                 }
                 else{
-                let c = a / b
-                result.text = String(c)
+                 c = a / b
+                
                 }
             }
-            while(result.text?.last=="0")
+           result.text = String(format:"%.10f",c)
+            while(result.text?.last == "0")
             {
                 result.text?.removeLast()
             }
@@ -432,7 +441,6 @@ class ViewController: UIViewController {
             }
         }
         symbol = 0
-        judge = 0
         re = 1
     }
     
